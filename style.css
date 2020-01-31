@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 15px 0px 25px 25px;
+}
+
+body {
+    height: 100vh;
+}
+
+.btn-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+img {
+    /* When we click on our img, our eventListner doesn't work, this avoids that issue */
+    pointer-events: none;
+}
+
+.win-overlay {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    border-radius: 5px;
+    display: none;
+}
+
+button {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.play-again {
+    border-radius: 10%;
+}
+
+
