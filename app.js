@@ -10,7 +10,7 @@ let matches = 0;
 let clicks = 0;
 
 function showOverlay () {
-    winnerLayout.style.display = 'visible';
+    winnerLayout.style.display = 'block';
 }
 
 function newGame() {
