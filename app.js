@@ -27,8 +27,8 @@ function newGame() {
             el.innerHTML = setImgToNumber('0');
             el.style.backgroundColor = 'white';
             winnerLayout.style.display = 'none';  
-            matchCount.style.innerText = '0';
-            clicksOverlay.style.innerText = '0';
+            matchCount.innerText = '0';
+            clicksOverlay.innerText = '0';
         });
     }
 }
