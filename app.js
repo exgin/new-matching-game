@@ -1,4 +1,4 @@
-const btns = document.querySelectorAll('button');
+const btns = document.querySelectorAll('.btn-container button');
 const winnerLayout = document.querySelector('.win-overlay');
 const matchCount = document.querySelector('#matches');
 const clicksOverlay = document.querySelector('#clicks');
@@ -150,6 +150,6 @@ function shuffle(array) {
 }
 
 
-
+console.log(btns, nums);
 shuffle(nums);
 randomNumbersIntoDataset();
